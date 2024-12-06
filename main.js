@@ -1,5 +1,5 @@
 
-const div = document.getElementById("div").innerHTML
+const div = document.getElementById("div")
 
 const mainBody = document.getElementById("main")
 
@@ -14,15 +14,17 @@ h3.innerHTML = "Third header"
 p.innerHTML = "This is a new page"
 
 
-mainBody.appendChild(h1)
-mainBody.appendChild(h2)
-mainBody.appendChild(h3)
-mainBody.appendChild(p)
+div.appendChild(h1)
+div.appendChild(h2)
+div.appendChild(h3)
+div.appendChild(p)
 
 h1.style.color = "yellow"
 h2.style.color = "green"
 h3.style.color = "blue"
 p.style.color = "red"
+
+console.log(mainBody)
 
 
 
